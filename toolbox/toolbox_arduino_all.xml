@@ -2715,18 +2715,19 @@
 					</block>
 				</value>			
 			</block>
-			<block type="ethernet_PARSER_parse"></block>
-			<block type="ethernet_PARSER_init"></block>
-			<block type="ethernet_PARSER_end"></block>
-			<block type="ethernet_PARSER_count"></block>
-			<block type="ethernet_PARSER_purge"></block>
-			<block type="ethernet_PARSER_getmyparam">
-				<value name="myparam">
-					<block type="text">
-						<field name="paramètre"></field>
-					</block>
-				</value>			
-			</block>
+			<!-- <block type="ethernet_PARSER_parse"></block> -->
+			<!-- <block type="ethernet_PARSER_init"></block> -->
+			<!-- <block type="ethernet_PARSER_end"></block> -->
+			<!-- <block type="ethernet_PARSER_count"></block> -->
+			<!-- <block type="ethernet_PARSER_purge"></block> -->
+			<!-- <block type="ethernet_PARSER_getmyparam"> -->
+				<!-- <value name="myparam"> -->
+					<!-- <block type="text"> -->
+						<!-- <field name="paramètre"></field> -->
+					<!-- </block> -->
+				<!-- </value>			 -->
+			<!-- </block> -->
+			<category name="Analyseur sémantique de flux" colour="#FFCC66">	
 			<block type="ethernet_PARSERV2_CREATION">
 				<value name="Parse">
 					<block type="text">
@@ -2758,6 +2759,8 @@
 			</block>
 			<block type="ethernet_PARSERV2_FREE"></block>
 		</category>
+		</category>		
+		
 		<category name="CAT_WIFI_INIT" colour="#FFCC66">
 			<block type="ethernet_wifi_begin_server"></block>
 			<block type="ethernet_client_for_wifi_server"></block>
